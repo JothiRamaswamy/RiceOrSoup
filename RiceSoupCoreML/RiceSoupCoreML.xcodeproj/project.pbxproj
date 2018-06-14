@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876F482420D2C74E00D7D612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F482320D2C74E00D7D612 /* AppDelegate.swift */; };
+		876F482620D2C74E00D7D612 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F482520D2C74E00D7D612 /* ViewController.swift */; };
+		876F482920D2C74E00D7D612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876F482720D2C74E00D7D612 /* Main.storyboard */; };
+		876F482B20D2C74E00D7D612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876F482A20D2C74E00D7D612 /* Assets.xcassets */; };
+		876F482E20D2C74E00D7D612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876F482C20D2C74E00D7D612 /* LaunchScreen.storyboard */; };
+		876F483920D2C74F00D7D612 /* RiceSoupCoreMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F483820D2C74F00D7D612 /* RiceSoupCoreMLTests.swift */; };
+		876F484420D2C74F00D7D612 /* RiceSoupCoreMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F484320D2C74F00D7D612 /* RiceSoupCoreMLUITests.swift */; };
+		876F485220D2C7AB00D7D612 /* RiceSoupClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 876F485120D2C7AB00D7D612 /* RiceSoupClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		876F483520D2C74F00D7D612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876F481820D2C74E00D7D612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876F481F20D2C74E00D7D612;
+			remoteInfo = RiceSoupCoreML;
+		};
+		876F484020D2C74F00D7D612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876F481820D2C74E00D7D612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876F481F20D2C74E00D7D612;
+			remoteInfo = RiceSoupCoreML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		876F482020D2C74E00D7D612 /* RiceSoupCoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiceSoupCoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		876F482320D2C74E00D7D612 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		876F482520D2C74E00D7D612 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		876F482820D2C74E00D7D612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		876F482A20D2C74E00D7D612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		876F482D20D2C74E00D7D612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		876F482F20D2C74E00D7D612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876F483420D2C74F00D7D612 /* RiceSoupCoreMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiceSoupCoreMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		876F483820D2C74F00D7D612 /* RiceSoupCoreMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiceSoupCoreMLTests.swift; sourceTree = "<group>"; };
+		876F483A20D2C74F00D7D612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876F483F20D2C74F00D7D612 /* RiceSoupCoreMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiceSoupCoreMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		876F484320D2C74F00D7D612 /* RiceSoupCoreMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiceSoupCoreMLUITests.swift; sourceTree = "<group>"; };
+		876F484520D2C74F00D7D612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876F485120D2C7AB00D7D612 /* RiceSoupClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RiceSoupClassifier.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876F481D20D2C74E00D7D612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876F483120D2C74F00D7D612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876F483C20D2C74F00D7D612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		876F481720D2C74E00D7D612 = {
+			isa = PBXGroup;
+			children = (
+				876F482220D2C74E00D7D612 /* RiceSoupCoreML */,
+				876F483720D2C74F00D7D612 /* RiceSoupCoreMLTests */,
+				876F484220D2C74F00D7D612 /* RiceSoupCoreMLUITests */,
+				876F482120D2C74E00D7D612 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		876F482120D2C74E00D7D612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				876F482020D2C74E00D7D612 /* RiceSoupCoreML.app */,
+				876F483420D2C74F00D7D612 /* RiceSoupCoreMLTests.xctest */,
+				876F483F20D2C74F00D7D612 /* RiceSoupCoreMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876F482220D2C74E00D7D612 /* RiceSoupCoreML */ = {
+			isa = PBXGroup;
+			children = (
+				876F482320D2C74E00D7D612 /* AppDelegate.swift */,
+				876F482520D2C74E00D7D612 /* ViewController.swift */,
+				876F482720D2C74E00D7D612 /* Main.storyboard */,
+				876F485120D2C7AB00D7D612 /* RiceSoupClassifier.mlmodel */,
+				876F482A20D2C74E00D7D612 /* Assets.xcassets */,
+				876F482C20D2C74E00D7D612 /* LaunchScreen.storyboard */,
+				876F482F20D2C74E00D7D612 /* Info.plist */,
+			);
+			path = RiceSoupCoreML;
+			sourceTree = "<group>";
+		};
+		876F483720D2C74F00D7D612 /* RiceSoupCoreMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				876F483820D2C74F00D7D612 /* RiceSoupCoreMLTests.swift */,
+				876F483A20D2C74F00D7D612 /* Info.plist */,
+			);
+			path = RiceSoupCoreMLTests;
+			sourceTree = "<group>";
+		};
+		876F484220D2C74F00D7D612 /* RiceSoupCoreMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				876F484320D2C74F00D7D612 /* RiceSoupCoreMLUITests.swift */,
+				876F484520D2C74F00D7D612 /* Info.plist */,
+			);
+			path = RiceSoupCoreMLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		876F481F20D2C74E00D7D612 /* RiceSoupCoreML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876F484820D2C74F00D7D612 /* Build configuration list for PBXNativeTarget "RiceSoupCoreML" */;
+			buildPhases = (
+				876F481C20D2C74E00D7D612 /* Sources */,
+				876F481D20D2C74E00D7D612 /* Frameworks */,
+				876F481E20D2C74E00D7D612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RiceSoupCoreML;
+			productName = RiceSoupCoreML;
+			productReference = 876F482020D2C74E00D7D612 /* RiceSoupCoreML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		876F483320D2C74F00D7D612 /* RiceSoupCoreMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876F484B20D2C74F00D7D612 /* Build configuration list for PBXNativeTarget "RiceSoupCoreMLTests" */;
+			buildPhases = (
+				876F483020D2C74F00D7D612 /* Sources */,
+				876F483120D2C74F00D7D612 /* Frameworks */,
+				876F483220D2C74F00D7D612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876F483620D2C74F00D7D612 /* PBXTargetDependency */,
+			);
+			name = RiceSoupCoreMLTests;
+			productName = RiceSoupCoreMLTests;
+			productReference = 876F483420D2C74F00D7D612 /* RiceSoupCoreMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		876F483E20D2C74F00D7D612 /* RiceSoupCoreMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876F484E20D2C74F00D7D612 /* Build configuration list for PBXNativeTarget "RiceSoupCoreMLUITests" */;
+			buildPhases = (
+				876F483B20D2C74F00D7D612 /* Sources */,
+				876F483C20D2C74F00D7D612 /* Frameworks */,
+				876F483D20D2C74F00D7D612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876F484120D2C74F00D7D612 /* PBXTargetDependency */,
+			);
+			name = RiceSoupCoreMLUITests;
+			productName = RiceSoupCoreMLUITests;
+			productReference = 876F483F20D2C74F00D7D612 /* RiceSoupCoreMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876F481820D2C74E00D7D612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jothi Ramaswamy";
+				TargetAttributes = {
+					876F481F20D2C74E00D7D612 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					876F483320D2C74F00D7D612 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 876F481F20D2C74E00D7D612;
+					};
+					876F483E20D2C74F00D7D612 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 876F481F20D2C74E00D7D612;
+					};
+				};
+			};
+			buildConfigurationList = 876F481B20D2C74E00D7D612 /* Build configuration list for PBXProject "RiceSoupCoreML" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 876F481720D2C74E00D7D612;
+			productRefGroup = 876F482120D2C74E00D7D612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				876F481F20D2C74E00D7D612 /* RiceSoupCoreML */,
+				876F483320D2C74F00D7D612 /* RiceSoupCoreMLTests */,
+				876F483E20D2C74F00D7D612 /* RiceSoupCoreMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		876F481E20D2C74E00D7D612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876F482E20D2C74E00D7D612 /* LaunchScreen.storyboard in Resources */,
+				876F482B20D2C74E00D7D612 /* Assets.xcassets in Resources */,
+				876F482920D2C74E00D7D612 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876F483220D2C74F00D7D612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876F483D20D2C74F00D7D612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		876F481C20D2C74E00D7D612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876F482620D2C74E00D7D612 /* ViewController.swift in Sources */,
+				876F485220D2C7AB00D7D612 /* RiceSoupClassifier.mlmodel in Sources */,
+				876F482420D2C74E00D7D612 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876F483020D2C74F00D7D612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876F483920D2C74F00D7D612 /* RiceSoupCoreMLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876F483B20D2C74F00D7D612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876F484420D2C74F00D7D612 /* RiceSoupCoreMLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		876F483620D2C74F00D7D612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876F481F20D2C74E00D7D612 /* RiceSoupCoreML */;
+			targetProxy = 876F483520D2C74F00D7D612 /* PBXContainerItemProxy */;
+		};
+		876F484120D2C74F00D7D612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876F481F20D2C74E00D7D612 /* RiceSoupCoreML */;
+			targetProxy = 876F484020D2C74F00D7D612 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		876F482720D2C74E00D7D612 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876F482820D2C74E00D7D612 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		876F482C20D2C74E00D7D612 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876F482D20D2C74E00D7D612 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876F484620D2C74F00D7D612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		876F484720D2C74F00D7D612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		876F484920D2C74F00D7D612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EAY39XXBE;
+				INFOPLIST_FILE = RiceSoupCoreML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jothiramaswamy.RiceSoupCoreML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		876F484A20D2C74F00D7D612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EAY39XXBE;
+				INFOPLIST_FILE = RiceSoupCoreML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jothiramaswamy.RiceSoupCoreML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		876F484C20D2C74F00D7D612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiceSoupCoreMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jothiramaswamy.RiceSoupCoreMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiceSoupCoreML.app/RiceSoupCoreML";
+			};
+			name = Debug;
+		};
+		876F484D20D2C74F00D7D612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiceSoupCoreMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jothiramaswamy.RiceSoupCoreMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiceSoupCoreML.app/RiceSoupCoreML";
+			};
+			name = Release;
+		};
+		876F484F20D2C74F00D7D612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiceSoupCoreMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jothiramaswamy.RiceSoupCoreMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RiceSoupCoreML;
+			};
+			name = Debug;
+		};
+		876F485020D2C74F00D7D612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiceSoupCoreMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jothiramaswamy.RiceSoupCoreMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RiceSoupCoreML;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876F481B20D2C74E00D7D612 /* Build configuration list for PBXProject "RiceSoupCoreML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876F484620D2C74F00D7D612 /* Debug */,
+				876F484720D2C74F00D7D612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876F484820D2C74F00D7D612 /* Build configuration list for PBXNativeTarget "RiceSoupCoreML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876F484920D2C74F00D7D612 /* Debug */,
+				876F484A20D2C74F00D7D612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876F484B20D2C74F00D7D612 /* Build configuration list for PBXNativeTarget "RiceSoupCoreMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876F484C20D2C74F00D7D612 /* Debug */,
+				876F484D20D2C74F00D7D612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876F484E20D2C74F00D7D612 /* Build configuration list for PBXNativeTarget "RiceSoupCoreMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876F484F20D2C74F00D7D612 /* Debug */,
+				876F485020D2C74F00D7D612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 876F481820D2C74E00D7D612 /* Project object */;
+}
